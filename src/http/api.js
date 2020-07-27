@@ -3,7 +3,7 @@ import axios from 'axios'
 // import router from '../router'
 
 const api = axios.create();
-api.defaults.baseURL = 'https://master.xinyi.local';
+api.defaults.baseURL = 'http://master.xinyi.local';
 api.defaults.timeout = 5000;
 api.defaults.headers.post['Content-Type'] = 'application/json';
 api.defaults.headers.post['X-Requested-With'] = 'XMLHttpRequest'
